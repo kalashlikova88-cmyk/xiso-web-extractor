@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Xbox 360 ISO Web Extractor",
+  "version": "1.0",
+  "description": "Aplikasi Ekstraktor ISO Xbox 360 berbasis web. Ekstrak file ISO Xbox 360 langsung di browser Anda tanpa mengunggahnya ke server.",
+  "action": {
+    "default_icon": "data/icon.png"
+  },
+  "background": {
+    "service_worker": "data/background.js"
+  },
+  "permissions": [
+    "unlimitedStorage"
+  ]
+}
